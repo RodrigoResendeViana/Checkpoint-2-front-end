@@ -34,58 +34,59 @@
 			<h2>Cadastro de Usuário</h2>
 			<a href="carrinho.html"><img src="/imagens/carrinho.png" id="carrinho" ></a>
 		</div>
-
-		<section>
+		<div id="centralizar-formulario">
+		<section class="formulario">
+			<div id="cadastro-metade-1">
 			
-            <br>
-            <br>
-			<form id="form-cadastro" onsubmit="return validarFormulario();">
-				  <label for="email">Email:</label>
+				  <label for="email">Email:</label><br>
 				  <input type="text" name="email" id="email">
-				<br>
-				  <label for="confirme-seu-email">Confirme o E-mail:</label>
+				<br><br>
+				  <label for="confirme-seu-email">Confirme o E-mail:</label><br>
 				  <input type="email" name="confirme-seu-email" id="confirme-seu-email">
-				<br>
-				  <label for="senha">Senha:</label>
+				<br><br>
+				  <label for="senha">Senha:</label><br>
 				  <input type="password" name="senha" id="senha">
-				<br>
-				  <label for="confirma-senha">Confirme a senha:</label>
+				  <br><br>
+				  <label for="confirma-senha">Confirme a senha:</label><br>
 				  <input type="password" name="confirma-senha" id="confirma-senha">
-				<br>
-				  <label for="nome">Nome:</label>
+				<br><br>
+				  <label for="nome">Nome:</label><br>
 				  <input type="name" name="nome" id="nome">
-				<br>
-				  <label for="sobrenome">Sobrenome:</label>
-				  <input type="sobrenome" name="sobrenome" id="sobrenome">
-				<br>
-				  <label for="cpf">CPF:</label>
+				<br><br>
+				  <label for="sobrenome">Sobrenome:</label><br>
+				  <input type="sobrenome" name="sobrenome" id="sobrenome"><br><br>
+				  <button id="form-cadastro" onsubmit="return validarFormulario();">Cadastrar</button><br>
+				</div>
+				<div id="cadastro-metade-2">
+				  <label for="cpf">CPF:</label><br>
 				  <input type="cpf" name="cpf" id="cpf">
-				<br>				
-				  <label for="celular">CELULAR:</label>
+				<br><br>				
+				  <label for="celular">CELULAR:</label><br>
 				  <input type="celular" name="celular" id="celular">
-				<br>				
-				  <label for="cep">CEP:</label>
+				<br><br>				
+				  <label for="cep">CEP:</label><br>
 				  <input type="cep" name="cep" id="cep">
-				<br>	
-				  <label for="rua">RUA:</label>
+				<br><br>
+				  <label for="rua">RUA:</label><br>
 				  <input type="rua" name="rua" id="rua">
-				<br>
-				  <label for="numero">Numero:</label>
+				<br><br>
+				  <label for="numero">Numero:</label><br>
 				  <input type="numero" name="numero" id="numero">
-				<br>
-				  <label for="estado">Estado:</label>
+				<br><br>
+				  <label for="estado">Estado:</label><br>
 				  <input type="estado" name="estado" id="estado">
-				<br>
-				  <label for="complemento">Complemento:</label>
+				<br><br>
+				  <label for="complemento">Complemento:</label><br>
 				  <input type="complemento" name="complemento" id="complemento">
 				<br>
 				<br>
-				<button type="submit">Cadastrar</button>
+				
+			</div>
 			  </form>
-			  
 		</section>
+	</div>
 
-		<div></div>
+
 	</div>
 
 <footer>

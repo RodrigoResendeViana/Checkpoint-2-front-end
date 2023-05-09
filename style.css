@@ -3,12 +3,14 @@ body{
 }
 
 .container{
+    overflow:auto;
     display: flex;
     justify-content: space-between;
     width: 100%;
     height: auto;
     margin-top: 100px;
     text-align: center;
+
 }
 
 #containercentral{
@@ -21,12 +23,25 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.containercadastro{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .menu{
     background-color: #7B253A;
     border-color: black;
     text-align: center;
     width:100%;
     margin-bottom: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
      
 }
 
@@ -104,11 +119,10 @@ footer{
     display: flex;
     justify-content: space-between;
     background-color: #BC8282;
-    border-color: #BC8282;
     margin-top: 50px;
     width: 100%;
-    padding-left: 20px;
     font-family: Arial, Helvetica, sans-serif;
+
     
 }
 
@@ -118,9 +132,6 @@ footer{
     margin-right: 20px;
 }
 
-img{
-    padding: 20px; ;
-}
 
 #form-contato{
     border-radius: 20px;
@@ -146,10 +157,10 @@ img{
 
 #divE{
     display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-  gap: 90px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 90px;
 }
 
 #LC{
@@ -157,27 +168,24 @@ img{
  color: #7B253A;
 }
 
-#loginB{
+#fazerlogin{
     background-color: #7B253A;
     border-radius: 28px;
-    width: 600px;
-    height: 400px;
-    margin-left: 140px;
     text-align: center;
+    padding: 20px;
 }
 
 #textoLC{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 
 #LC{
     display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 200px;
-  
+    justify-content:center;
+    text-align: center;
+    margin-right: 80px;
 }
 
 #seclog{
@@ -203,6 +211,22 @@ img{
     text-align: left;
 }
 
+#form-cadastro{
+    width: 100px;
+    height: 50px;
+    border-radius: 28px;
+}
+
+#form-cadastro:hover{
+    background-color: black;
+    color: antiquewhite;
+}
+
+#form-login:hover{
+    background-color: black;
+    color: antiquewhite;
+}
+
 #butao{
     width: 170px;
     height: 80px;
@@ -212,18 +236,68 @@ img{
     font-size: 25px;
 }
 
-#cadastroB{
+#cadastrobotao{
     background-color: #7B253A;
     border-radius: 28px;
-    width: 600px;
-    height: 400px;
-    margin-left: 140px;
+    width: 400px;
+    height: 300px;
     text-align: center;
+}
+
+#loginbotao{
+    background-color: #7B253A;
+    border-radius: 28px;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+}
+
+#cadastrobotao:hover{
+    background-color: #BC8282;
+    color:#7B253A;
+}
+
+#loginbotao:hover{
+    background-color: #BC8282;
+    color: #7B253A;
+}
+
+#botoes{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 
 .titulocadastro{
     display:flex;
     justify-content: space-between;
+    margin-top: 100px;
 }
+
+
+#fotomenu{
+    margin-top: 100px;
+}
+
+.formulario{
+    background-color: #7B253A;
+    border-radius: 28px;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    gap: 50px;
+    width: fit-content;
+
+}
+
+#centralizar-formulario{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 
